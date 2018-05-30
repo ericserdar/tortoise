@@ -1,1 +1,107 @@
 /* master style sheet */
+.body {
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica;
+}
+
+.header-background-image {
+  background-image: url("./images/glasses-bg.png");
+  background-size: cover;
+  height: 30rem;
+}
+
+/* Nav bar styling */
+
+.nav-bar-master {
+  margin: 0 auto;
+  width: 960px;
+  padding-top: 1rem;
+}
+
+.nav-bar-container {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  background-color: cadetblue;
+  height: 2.5rem;
+  color: white;
+  font-family: Helvetica
+}
+
+.nav-bar-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 1rem auto 2rem;
+  left: 0;
+}
+
+.nav-bar-logo h4 {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-family: Helvetica;
+}
+
+.nav-bar-logo img {
+  height: 1.5rem;
+  margin-left: 2rem;
+}
+
+.nav-bar-menu {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-bar-menu span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.header-container h1 {
+  margin: auto 5rem;
+}
+
+.header-container {
+  background-color: white;
+  height: 5rem;
+  width: 35rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+  margin-top: 10rem;
+}
+
+/* main body section */
+
+.offerings {
+  display: flex;
+  flex-direction: row;
+  height: 8rem;
+  margin: 0 auto;
+  width: 960px;
+  justify-content: center;
+}
+
+.offerings-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 3rem 1rem 3rem;
+}
+
+.offerings-section img{
+  width: 3.5rem;
+}
